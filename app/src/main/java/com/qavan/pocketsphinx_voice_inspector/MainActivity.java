@@ -29,7 +29,7 @@ import static android.widget.Toast.makeText;
 public class MainActivity extends Activity implements RecognitionListener {
     private static final String TAG = "MAIN_ACTIVITY";
 
-    private final static String KEY_PHRASE = "помогатор";
+    private final static String KEY_PHRASE = "поиск";
     private final static String GO_TO_MENU = "меню";
     private final static String GO_WITH_DIGITS = "числа";
     private final static String GO_BACK = "назад";
@@ -75,7 +75,7 @@ public class MainActivity extends Activity implements RecognitionListener {
         if (searchName.equals(GO_TO_MENU))
             recognizer.startListening(searchName);
         else
-            recognizer.startListening(searchName, 5000);
+            recognizer.startListening(searchName, 10000);
 
         String caption = getString(captions.get(searchName));
 
