@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pocketsphinx_voice_inspector</string>
+    <!--    <string name="KEYPHRASE">помогатор</string>-->
+    <!--    <string name="BACK">назад</string>-->
+    <!--    <string name="DIGITS">числа</string>-->
+    <!--    <string name="MENU">меню</string>-->
+    <string name="KWS_SEARCH">Чтобы начать скажите %s…</string>
+    <string name="MENU_SEARCH">Команды: %s, %s…</string>
+    <string name="DIGITS_SEARCH">Говорите цифры…</string>
+</resources>

@@ -1,0 +1,2 @@
+com.qavan.models
+string app_name
